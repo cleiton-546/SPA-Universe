@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto Mono", sans-serif;
+    background-image: url(../image/mountains-universe-1.png);
+    font-size: 1.6rem;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+nav ul {
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    padding: 4rem 71.9rem 4rem 7.2rem;
+    gap: 5rem;
+    
+}
+
+nav li a {
+    color:rgb(145, 143, 143);
+    white-space: nowrap;
+    
+    
+}
+
+nav ul li a.active {
+    color: white ;
+}
+
+/* Home */
+.home  {
+    margin-top: 11.4rem;
+    text-align: center;
+    
+    
+}
+
+ h1 {
+    color: var(--platform-aliases-ttulos, #E1E1E6);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    
+        
+}
+
+.home button {
+    background: transparent;
+    color: var(--neutral-colors-white, #FFF);
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    padding: 1.2rem 3.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 4rem;
+    
+}
+
+.exploration-wrraper, .universe-wrraper {
+    max-width: 69.8rem;
+    margin-top: 2.4rem;
+    margin-left: 2.9rem;
+}
+
+.exploration-wrraper p,
+.universe-wrraper p {
+    margin-top: 3rem;
+    color: var(--platform-aliases-ttulos, #d3d3d3);
+    font-size: 18px;
+    font-weight: 400;
+    
+        
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    nav ul {
+        padding: 4rem 2rem;
+        justify-content: center;
+    }
+
+    .exploration-wrraper,
+    .universe-wrraper {
+        max-width: 90%;
+        margin: 2.4rem auto;
+    }
+}
